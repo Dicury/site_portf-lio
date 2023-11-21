@@ -8,7 +8,7 @@ export const Container = styled.nav`
   display: grid;
   grid-template-columns: 1fr auto auto;
   align-items: center;
-  padding: 27px 200px;
+  padding: 3vh 13vw;
   gap: 28px;
 
   @media (max-width: 850px) {
