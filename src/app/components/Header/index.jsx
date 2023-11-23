@@ -19,13 +19,13 @@ function Header() {
 
       <Lista>
         <ElementoLista>
-          <MenuLink href="/">Home</MenuLink>
-        </ElementoLista>
-        <ElementoLista>
           <MenuLink href="/">Projetos</MenuLink>
         </ElementoLista>
         <ElementoLista>
           <MenuLink href="/">Sobre</MenuLink>
+        </ElementoLista>
+        <ElementoLista>
+          <MenuLink href="/">Contato</MenuLink>
         </ElementoLista>
       </Lista>
 
