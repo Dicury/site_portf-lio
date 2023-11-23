@@ -1,7 +1,6 @@
 "use client";
 
 import Colors from "@/tokens/colors";
-import Link from "next/link";
 import styled from "styled-components";
 
 export const Container = styled.nav`
@@ -9,9 +8,13 @@ export const Container = styled.nav`
   grid-template-columns: 1fr auto auto;
   align-items: center;
   padding: 3vh 13vw;
-  gap: 28px;
+  gap: 1rem;
 
-  @media (max-width: 850px) {
+  @media (max-width: 1360px) {
+    padding: 2rem 8vw;
+  }
+
+  @media (max-width: 767px) {
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -20,7 +23,9 @@ export const Container = styled.nav`
 export const Logo = styled.img``;
 
 export const Lista = styled.ul`
-  @media (max-width: 850px) {
+  display: flex;
+  gap: 1rem;
+  @media (max-width: 767px) {
     z-index: 2;
     position: fixed;
     width: 60%;
@@ -37,24 +42,29 @@ export const ElementoLista = styled.li`
   display: inline-block;
   line-height: 40px;
   margin: 0 5px;
-  @media (max-width: 850px) {
+  @media (max-width: 767px) {
     display: block;
   }
 `;
-export const MenuLink = styled(Link)`
+export const MenuLink = styled.button`
+  color: ${Colors.PRIMARIA};
+  font-size: 20px;
+  font-weight: 400;
   text-decoration: none;
+  border: none;
+  background: none;
   &:hover {
     color: ${Colors.DESTAQUE};
   }
 
-  @media (max-width: 850px) {
+  @media (max-width: 767px) {
     color: ${Colors.FUNDO};
   }
 `;
 
 export const MenuMobileInput = styled.input`
   display: none;
-  @media (max-width: 850px) {
+  @media (max-width: 767px) {
     content: url(/icones/Menu.svg);
     appearance: none;
     display: block;
@@ -75,13 +85,10 @@ export const LinguaInput = styled.input`
   content: url(/icones/EUA.svg);
   appearance: none;
   display: block;
+  width: 38px;
+  height: 38px;
 
   &#lingua:checked {
     content: url(/icones/Brasil.svg);
-  }
-
-  @media (max-width: 850px) {
-    width: 38px;
-    height: 38px;
   }
 `;
