@@ -1,0 +1,48 @@
+{
+  "Header": {
+    "Projetos": "Projects",
+    "Sobre": "About",
+    "Contato": "Contact"
+  },
+
+  "Banner": {
+    "Titulo": "Front-end Developer & Digital Designer.",
+    "Texto": "Hello, I'm Mateus Cury, a front-end developer with a degree in digital design. I am fluent in English, have design skills, and my main technologies are:",
+    "Destaque": "HTML, CSS, JavaScript, React, Next.js, and Styled-Components."
+  },
+
+  "Sobre": {
+    "TituloTopicos": "My Journey",
+    "TituloParagrafo": "About me",
+    "TextoParagrafo": "I've completed my digital design degree in mid-2022. The course also introduced some front-end knowledge through CSS and HTML. I had been working in design since 2020, starting as an intern at Smartus and throughout 2020 to 2022, I continued working as a designer. Due to the nature of the work, I learned to effectively collaborate with various teams and different individuals within the company, always aiming to communicate effectively to ensure understanding among those without design knowledge. At the end of 2022, I left the company to focus my studies on front-end development, aiming for a career change. I pursued my studies through platforms like Alura and YouTube, in addition to creating personal projects to deepen my knowledge and challenge myself further.",
+    "TextoTopico1": "Bachelor in Digital Design - PUC Campinas",
+    "TextoTopico2": "Design Intern - Smartus",
+    "TextoTopico3": "Design Intern - GRI Club",
+    "TextoTopico4": "Junior Media Editor - GRI Club",
+    "TextoTopico5": "Front-End Developer"
+  },
+
+  "PrincipaisProjetos": {
+    "Titulo": "Main Projects"
+  },
+
+  "Projeto1": {
+    "Titulo": "Cafe Street",
+    "Descricao": "Cafe Street is a coffee company's delivery website. The project's goal was to study how to create a Single Page Application using Next.js and deepen the understanding of the framework. In this project, Next.js framework, Styled-Components for styling, and UUIDv4 for organizing product IDs were used."
+  },
+
+  "Projeto2": {
+    "Titulo": "Interactive Comments Section",
+    "Descricao": "This was a challenge proposed by frontendmentor.io, where it was necessary to create an interactive comments section. More information about the challenge can be found in the project files. In this project, Next.js framework, Styled-Components for styling, and UUIDv4 for organizing the IDs of all comments and replies were used."
+  },
+
+  "Projeto3": {
+    "Titulo": "Age Calculator App",
+    "Descricao": "Another challenge proposed by frontendmentor.io, where it was necessary to create an application that calculates your age in days, months, and years based on your date of birth. More information about the challenge can be found in the project files. In this project, Next.js framework, Styled-Components for styling, and react-hook-form for the form were used."
+  },
+
+  "Projeto4": {
+    "Titulo": "Results Summary Component",
+    "Descricao": "This was the first challenge I took on from frontendmentor.io, a simple project designed to practice HTML and CSS. Although it wasn't strictly necessary, I used the Next.js framework to start getting familiar with the tool's environment."
+  }
+}

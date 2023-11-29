@@ -9,27 +9,29 @@ import {
   MenuLink,
   MenuMobileInput,
 } from "@/app/components/Header/Header.styles";
+import useTranslationContext from "@/app/hooks/useTranslationContext";
 
 function Header() {
+  const { linguaAtual, MudaLingua } = useTranslationContext();
   return (
-    <Container>
+    <Container id="topo">
       <MenuMobileInput type="checkbox" id="check" />
 
       <Logo alt="Logo da página" src="/icones/logo.svg" />
 
       <Lista>
         <ElementoLista>
-          <MenuLink href="/">Projetos</MenuLink>
+          <MenuLink href="#projetos">{linguaAtual.Header.Projetos}</MenuLink>
         </ElementoLista>
         <ElementoLista>
-          <MenuLink href="/">Sobre</MenuLink>
+          <MenuLink href="#sobre">{linguaAtual.Header.Sobre}</MenuLink>
         </ElementoLista>
         <ElementoLista>
-          <MenuLink href="/">Contato</MenuLink>
+          <MenuLink href="#contato">{linguaAtual.Header.Contato}</MenuLink>
         </ElementoLista>
       </Lista>
 
-      <LinguaInput type="checkbox" id="lingua" />
+      <LinguaInput type="checkbox" id="lingua" onClick={MudaLingua} />
     </Container>
   );
 }

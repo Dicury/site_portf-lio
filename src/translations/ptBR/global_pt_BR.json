@@ -1,0 +1,48 @@
+{
+  "Header": {
+    "Projetos": "Projetos",
+    "Sobre": "Sobre",
+    "Contato": "Contato"
+  },
+
+  "Banner": {
+    "Titulo": "Desenvolvedor Front-end & Designer Digital.",
+    "Texto": "Olá, sou o Mateus Cury, desenvolvedor front-end formado em design digital. Possuo inglês fluente, habilidades em design e minhas principais tecnologias são:",
+    "Destaque": "HTML, CSS, JavaScript, React, Nextjs e Styled-Components."
+  },
+
+  "Sobre": {
+    "TituloTopicos": "Minha Trajetória",
+    "TituloParagrafo": "Sobre mim",
+    "TextoParagrafo": "Terminei minha formação em design digital no meio de 2022, o foco era o design, porém nesta formação também foi introduzido um pouco de conhecimento front-end através de CSS e HTML. Eu já estava trabalhando com design desde 2020, quando comecei como estagiário na Smartus. Durante 2020 e 2022 continuei atuando como designer e, por conta do estilo do trabalho aprendi a trabalhar efetivamente com vários times e pessoas diferentes dentro da empresa, visando sempre se comunicar de maneira efetiva para garantir o entendimento de pessoas que não possuíam conhecimento em design. No final de 2022, deixei a empresa que estava para focar meus estudos em front-end visando mudar de área de atuação. Os estudos foram feitos a partir de plataformas como a Alura e Youtube, além da criação de projetos pessoais com a finalidade de aprofundar meu conhecimento e me desafiar cada vez mais.",
+    "TextoTopico1": "Bacharel em Design Digital - PUC Campinas",
+    "TextoTopico2": "Estagiário em Design - Smartus",
+    "TextoTopico3": "Estagiário em Design - GRI Club",
+    "TextoTopico4": "Junior Media Editor - GRI Club",
+    "TextoTopico5": "Desenvolvedor Front-End"
+  },
+
+  "PrincipaisProjetos": {
+    "Titulo": "Principais Projetos"
+  },
+
+  "Projeto1": {
+    "Titulo": "Cafe Street",
+    "Descricao": "O Cafe Street é um site de delivery de uma empresa de café. O objetivo do projeto era estudar como fazer uma Single Page Application utilizando o Nextjs, além de aprofundar os estudos do framework. Neste projeto foi utilizado o framework Nextjs, o Styled-Components para fazer a estilização e o UUIDv4 organizar o id de todos os produtos."
+  },
+
+  "Projeto2": {
+    "Titulo": "Interactive Comments Section",
+    "Descricao": "Este foi um desafio proposto pelo frontendmentor.io onde era necessário criar uma seção de comentários interativa, mais informações sobre o desafio encontram-se nos arquivos do projeto. Neste projeto foi utilizado o framework Nextjs, o Styled-Components para fazer a estilização e o UUIDv4 organizar o id de todos os comentários e replies."
+  },
+
+  "Projeto3": {
+    "Titulo": "Age Calculator App",
+    "Descricao": "Outro desafio proposto pelo frontendmentor.io onde era necessário criar um aplicativo que calculasse sua idade em dias, meses e anos a partir da sua data de nascimento, mais informações sobre o desafio encontram-se nos arquivos do projeto. Neste projeto foi utilizado o framework Nextjs, o Styled-Components para fazer a estilização e o react-hook-form para fazer o formulário."
+  },
+
+  "Projeto4": {
+    "Titulo": "Results Summary Component",
+    "Descricao": "Este foi o primeiro desafio que fiz do frontendmentor.io, é um projeto simples para treinar html e css. Apesar de não ter sido necessário, utilizei o framework Nextjs para começar a me familiarizar com o ambiente da ferramenta."
+  }
+}

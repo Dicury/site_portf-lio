@@ -9,7 +9,7 @@ import {
 
 function Footer() {
   return (
-    <Container>
+    <Container id="contato">
       <IconeLink href="/">
         <Icone src="/icones/Linkedin.svg" />
       </IconeLink>

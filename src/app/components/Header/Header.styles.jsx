@@ -1,6 +1,7 @@
 "use client";
 
 import Colors from "@/tokens/colors";
+import Link from "next/link";
 import styled from "styled-components";
 
 export const Container = styled.nav`
@@ -15,6 +16,9 @@ export const Container = styled.nav`
   }
 
   @media (max-width: 767px) {
+    position: fixed;
+    width: 100%;
+    background-color: ${Colors.FUNDO};
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -28,6 +32,7 @@ export const Lista = styled.ul`
   @media (max-width: 767px) {
     z-index: 2;
     position: fixed;
+    flex-direction: column;
     width: 60%;
     height: 100vh;
     left: -100%;
@@ -46,7 +51,7 @@ export const ElementoLista = styled.li`
     display: block;
   }
 `;
-export const MenuLink = styled.button`
+export const MenuLink = styled(Link)`
   color: ${Colors.PRIMARIA};
   font-size: 20px;
   font-weight: 400;

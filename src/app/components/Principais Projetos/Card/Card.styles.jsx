@@ -1,6 +1,7 @@
 "use client";
 
 import Colors from "@/tokens/colors";
+import Link from "next/link";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -14,13 +15,13 @@ export const Container = styled.div`
   gap: 2rem;
 
   @media (max-width: 1360px) {
+    display: flex;
+    flex-direction: column;
     padding: 2rem;
   }
 
   @media (max-width: 767px) {
     width: min(400px, 100%);
-    display: flex;
-    flex-direction: column;
     padding: 2rem;
     gap: 1rem;
   }
@@ -30,12 +31,13 @@ export const Icone = styled.img`
   grid-column: 1/2;
   grid-row: 1/4;
   border-radius: 20px;
-  width: 281px;
+  width: 400px;
   height: 267px;
+  object-fit: cover;
+  object-position: left top;
 
   @media (max-width: 1360px) {
-    width: clamp(12rem, 20vw, 380px);
-    height: auto;
+    width: 100%;
   }
 
   @media (max-width: 767px) {
@@ -59,6 +61,7 @@ export const Titulo = styled.h3`
 
 export const Descricao = styled.p`
   font-size: 20px;
+  text-align: justify;
 
   @media (max-width: 1360px) {
     font-size: 18px;
@@ -78,7 +81,7 @@ export const ContainerBotao = styled.div`
   }
 `;
 
-export const Botao = styled.button`
+export const LinkBotao = styled(Link)`
   display: flex;
   color: ${Colors.FUNDO};
   font-weight: 700;
